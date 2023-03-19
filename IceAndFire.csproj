@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>IceAndFire</RootNamespace>
+        <Configurations>Debug;Release</Configurations>
+        <Nullable>enable</Nullable>
+        <AssemblyName>IceAndFire</AssemblyName>
+        <LangVersion>latest</LangVersion>
+        <Optimize>False</Optimize>
+        <DebugType>embedded</DebugType>
+    </PropertyGroup>
+    <ItemGroup>
+      <None Remove="Assets\ArcticIce-Icon.png" />
+      <None Remove="Assets\BelowZero-Icon.png" />
+      <None Remove="Assets\FireyExplosions-Icon.png" />
+      <None Remove="Assets\FlamingDarts-Icon.png" />
+      <None Remove="Assets\FlamingSpeed-Icon.png" />
+      <None Remove="Assets\FreezeDarts-Icon.png" />
+      <None Remove="Assets\FrozenTouch-Icon.png" />
+      <None Remove="Assets\HighlyFlamable-Icon.png" />
+      <None Remove="Assets\PurplePopping-Icon.png" />
+      <None Remove="Assets\QuickFreeze-Icon.png" />
+    </ItemGroup>
+
+    <Import Project="..\btd6.targets" />
+</Project>
